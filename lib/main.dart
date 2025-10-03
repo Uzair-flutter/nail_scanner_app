@@ -34,10 +34,10 @@ class HandScannerScreen extends StatefulWidget {
   const HandScannerScreen({super.key});
 
   @override
-  _HandScannerScreenState createState() => _HandScannerScreenState();
+  HandScannerScreenState createState() => HandScannerScreenState();
 }
 
-class _HandScannerScreenState extends State<HandScannerScreen>
+class HandScannerScreenState extends State<HandScannerScreen>
     with SingleTickerProviderStateMixin {
   CameraController? _controller;
   Future<void>? _initializeControllerFuture;
